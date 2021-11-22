@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px) {
+    .header-texts {
+        padding: 50px 0;
+    }
+
+    .header-texts h1 {
+        font-size: 22px;
+    }
+
+    .container .add-text h4 {
+        font-size: 18px;
+    }
+
+    .container .add-text p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .main-header {
+        height: 80vh;
+    }
+
+    .nav .nav-links a {
+        margin: 0 7px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .nav img {
+        width: 100px;
+    }
+
+    .nav {
+        height: 50px;
+    }
+
+    .header-texts h1 {
+        width: 100%;
+    }
+
+    .header-texts p {
+        width: 100%;
+    }
+
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallry {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-texts {
+        background-color: #474a6300;
+    }
+    .menu-buttons {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 50px;
+        color: white;
+        transition: 0.5s;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .menu-buttons:hover {
+        color: #e84545;
+        text-align: center;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+
+    .container .nav .nav-links {
+        background-color: white;
+        position: absolute;
+        top: 55px;
+        right: -50%;
+        width: 150px;
+        padding: 20px;
+        transition: 0.5s;
+        border-radius: 3px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .nav .nav-links {
+        padding: 30px 20px;
+    }
+
+    .nav .nav-links a {
+        display: block;
+        font-size: 12px;
+        margin: 20px 0;
+        color: gray;
+    }
+
+    .services {
+        grid-template-columns: 100%;
+    }
+
+    .gallry {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team {
+        grid-template-columns: 100%;
+    }
+    .advertising {
+        grid-template-columns: 100%;
+    }
+    .footer-texts {
+        grid-template-columns: 100%;
+        padding: 20px;
+    }
+    .f-text {
+        margin: 50px 0;
+    }
+    .header-layer {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gallry {
+        padding: 0 10%;
+        grid-template-columns: 100%;
+    }
+}
